@@ -12,7 +12,7 @@ module.exports = {
         libraryExport: 'default',
         globalObject: 'this',
     },
-
+	devtool: "source-map",
     module: {
         rules: [
             {
